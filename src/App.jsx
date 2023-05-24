@@ -1,6 +1,6 @@
 import './index.js'
 import styles from './index.js'
-import { Hero, Navbar, Stats } from './components'
+import { Business, Hero, Navbar, Stats } from './components'
 
 const App = () => {
   return (
@@ -20,6 +20,7 @@ const App = () => {
       <div className={`${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} `}>
           <Stats />
+          <Business />
         </div>
       </div>
     </div>
