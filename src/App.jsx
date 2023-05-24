@@ -1,6 +1,6 @@
 import './index.js'
 import styles from './index.js'
-import { Hero, Navbar } from './components'
+import { Hero, Navbar, Stats } from './components'
 
 const App = () => {
   return (
@@ -14,6 +14,12 @@ const App = () => {
       <div className={`${styles.flexStart} bg-primary`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
+        </div>
+      </div>
+
+      <div className={`${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth} `}>
+          <Stats />
         </div>
       </div>
     </div>
