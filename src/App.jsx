@@ -1,6 +1,6 @@
 import './index.js'
 import styles from './index.js'
-import { Business, Hero, Navbar, Stats } from './components'
+import { Billing, Business, Hero, Navbar, Stats } from './components'
 
 const App = () => {
   return (
@@ -21,6 +21,7 @@ const App = () => {
         <div className={`${styles.boxWidth} `}>
           <Stats />
           <Business />
+          <Billing />
         </div>
       </div>
     </div>
