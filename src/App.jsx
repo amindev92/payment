@@ -1,6 +1,6 @@
 import './index.js'
 import styles from './index.js'
-import { Billing, Business, CardDeal, Hero, Navbar, Stats, Testimonials } from './components'
+import { Billing, Business, CardDeal, Hero, Navbar, Stats, Testimonials, Footer } from './components'
 import Cta from './components/CTA.jsx'
 
 const App = () => {
@@ -26,6 +26,7 @@ const App = () => {
           <CardDeal />
           <Testimonials />
           <Cta />
+          <Footer />
         </div>
       </div>
     </div>
