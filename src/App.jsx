@@ -1,6 +1,6 @@
 import './index.js'
 import styles from './index.js'
-import { Billing, Business, CardDeal, Hero, Navbar, Stats } from './components'
+import { Billing, Business, CardDeal, Hero, Navbar, Stats, Testimonials } from './components'
 
 const App = () => {
   return (
@@ -23,6 +23,7 @@ const App = () => {
           <Business />
           <Billing />
           <CardDeal />
+          <Testimonials />
         </div>
       </div>
     </div>
